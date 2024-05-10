@@ -3,10 +3,13 @@
   "version": "1.0.0",
   "description": "React Ecommerce website",
   "main": "server.js",
+  "engines": {
+    "node": "14.x"
+  },
   "scripts": {
     "start": "node server.js",
-    "dev": "set NODE_ENV=development&&nodemon backend/server.js",
-    "prod": "set NODE_ENV=production&&nodemon backend/server.js",
+    "dev": "set NODE_ENV=development&&nodemon server.js",
+    "prod": "set NODE_ENV=production&&nodemon server.js",
     "seeder": "node backend/utils/seeder.js"
   },
   "author": "selva1",
